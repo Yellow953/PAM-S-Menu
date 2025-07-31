@@ -1,0 +1,201 @@
+:root {
+    --primary-color: rgb(243, 198, 35);
+    --lighter-primary-color: color-mix(
+        in srgb,
+        var(--primary-color) 60%,
+        white 40%
+    );
+    --light-primary-color: color-mix(
+        in srgb,
+        var(--primary-color) 80%,
+        white 20%
+    );
+    --dark-primary-color: color-mix(
+        in srgb,
+        var(--primary-color) 80%,
+        black 20%
+    );
+    --darker-primary-color: color-mix(
+        in srgb,
+        var(--primary-color) 60%,
+        black 40%
+    );
+    --light-text: rgb(253, 241, 241);
+    --dark-text: rgb(41, 38, 0);
+    --light-bg: rgb(255, 252, 229);
+    --darker-bg: rgb(39, 35, 13);
+    --danger-color: rgb(209, 0, 0);
+    --success-color: rgb(64, 224, 0);
+    --warning-color: rgb(255, 159, 0);
+    --info-color: rgb(0, 174, 255);
+    --white: rgb(255, 255, 255);
+    --dark-bg: rgb(56, 55, 49);
+    --gray: rgb(80, 80, 80);
+}
+
+/* start header */
+.checkout-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    z-index: 1030;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.logo-text {
+    font-size: 1.1rem;
+    color: #111827;
+    line-height: 1;
+}
+
+.btn-back {
+    font-size: 0.95rem;
+    color: #374151;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.btn-back:hover {
+    color: #111827;
+    text-decoration: underline;
+}
+
+/* end header */
+
+/* start footer */
+.checkout-footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e5e7eb;
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.checkout-footer i {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.checkout-footer a:hover {
+    color: #111827;
+}
+
+/* end footer */
+
+/* start body */
+.checkout-main {
+    background-color: #f3f4f6;
+}
+
+.card {
+    border: 3px solid var(--primary-color);
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        border-radius: 0.75rem;
+        border: 0px solid transparent;
+        box-shadow: none;
+        background-color: transparent;
+    }
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: var(--light-primary-color);
+    border-color: var(--light-primary-color);
+}
+
+.btn-primary:active {
+    background-color: var(--light-primary-color);
+    border-color: var(--light-primary-color);
+}
+
+.btn-prmary:focus {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-radio {
+    background-color: white;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-radio:hover {
+    background-color: var(--light-primary-color) !important;
+    border: 2px solid var(--light-primary-color) !important;
+    color: white !important;
+}
+
+.btn-radio:active {
+    background-color: var(--light-primary-color) !important;
+    border: 2px solid var(--light-primary-color) !important;
+    color: white !important;
+}
+
+.btn-radio:focus {
+    background-color: var(--light-primary-color) !important;
+    border: 2px solid var(--light-primary-color) !important;
+    color: white !important;
+}
+
+/* When the input is checked, style the adjacent .btn-radio */
+input[type="radio"]:checked + .btn-radio,
+input[type="checkbox"]:checked + .btn-radio {
+    background-color: var(--light-primary-color) !important;
+    border: 2px solid var(--light-primary-color) !important;
+    color: white !important;
+}
+
+.input {
+    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 0 0 0 black !important;
+}
+
+.input:focus {
+    border: 2px solid var(--primary-color) !important;
+    box-shadow: 0 0 0 0 var(--primary-color) !important;
+}
+
+/* end body */
+
+/* start map */
+.map-container {
+    height: 300px;
+    border: 1px solid #d1d5db;
+    border-radius: 0.75rem;
+    position: relative;
+    background-color: #f9fafb;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.instruction-text {
+    font-size: 0.85rem;
+}
+
+#current-location {
+    z-index: 1000;
+}
+/* end map */
+
+.top-15 {
+    top: 15%;
+    z-index: 1000;
+}

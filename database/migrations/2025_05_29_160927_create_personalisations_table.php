@@ -1,0 +1,28 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('personalisations', function (Blueprint $table) {
+            $table->id();
+            $table->bigInteger("business_id")->unsigned();
+            $table->string('key');
+            $table->longText('value')->nullable();
+            $table->string('type')->nullable();
+            $table->integer('order')->unsigned()->default(0);
+            $table->timestamps();
+
+            $table->foreign('business_id')->references('id')->on('businesses');
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('personalisations');
+    }
+};
