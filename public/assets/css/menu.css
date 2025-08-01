@@ -1,5 +1,5 @@
 :root {
-    --primary: rgb(243, 198, 35);
+    --primary: #ef8760;
     --dark-primary: color-mix(in srgb, var(--primary) 70%, black);
     --darker-primary: color-mix(in srgb, var(--primary) 50%, black);
     --light-primary: color-mix(in srgb, var(--primary) 80%, white);

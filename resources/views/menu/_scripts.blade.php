@@ -1,6 +1,6 @@
 <script>
     $(document).ready(function () {
-        const businessId = {{ $business->id }};
+        const businessId = 'pams';
         const rate = {{ $rate }};
         const cookieKey = `bag_${businessId}`;
         let bag = [];

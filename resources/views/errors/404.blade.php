@@ -1,4 +1,4 @@
-@extends('layouts.app2')
+@extends('menu.app')
 
 @section('title', '404')
 

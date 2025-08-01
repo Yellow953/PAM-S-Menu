@@ -3,41 +3,37 @@
 @section('content')
 <div class="container-md padding-0" style="scroll-padding-top: 200px;">
     <!-- Hero Image Section -->
-    <div class="restaurant-banner" id="banner"
-        style="background-image: url({{ asset($business->banner ? $business->banner : ($business->type == 'restaurant' ? 'assets/images/menu-hero-resto.png' : 'assets/images/menu-hero-grocery.png')) }});">
+    <div class="restaurant-banner" id="banner" style="background-image: url({{ asset('assets/images/banner.png') }});">
     </div>
 
     <div class="menu-bg mx-custom px-3 py-5">
         <!-- Restaurant Details -->
         <div class="d-flex justify-content-center">
             <div class="d-flex card restaurant-details text-center mb-4 box-shadow">
-                <h1 class="fw-bold">{{ ucwords($business->name) }}</h1>
+                <h1 class="fw-bold">Pam's Scoop, Juice & Crepe</h1>
                 <hr class="w-100 divider">
-                <p class="mb-1">{{ $business->phone }}</p>
-                <p class="mb-1">{{ $business->address }}</p>
-                @if ($business->google_maps_link)
+                <p class="mb-1">81 230 801</p>
+                <p class="mb-1">Address</p>
                 <p class="mb-1">
-                    <a href="{{ $business->google_maps_link }}" class="text-yellow" target="blank">
+                    <a href="https://maps.google.com" class="text-yellow" target="blank">
                         <i class="fa-solid fa-location-dot"></i>
                         visit us
                     </a>
                 </p>
-                @endif
             </div>
         </div>
 
         <!-- Menu Categories -->
         <div
-            class="d-flex flex-nowrap gap-3 py-3 justify-content-start overflow-x-auto w-100 menu-categories custom-rounded">
+            class="d-flex flex-nowrap gap-3 py-3 justify-content-center overflow-x-auto w-100 menu-categories custom-rounded">
             <div class="card category-div box-shadow mb-2">
-                <a href="{{ route('menu', $business->name) }}#all" class="d-flex flex-column align-items-center">
+                <a href="{{ route('home') }}#all" class="d-flex flex-column align-items-center">
                     <button class="btn btn-custom rounded-pill fw-bold pb-0">All</button>
                 </a>
             </div>
             @foreach ($categories as $category)
             <div class="card category-div box-shadow mb-2">
-                <a href="{{ route('menu', $business->name) }}#{{ $category->name }}"
-                    class="d-flex flex-column align-items-center">
+                <a href="{{ route('home') }}#{{ $category->name }}" class="d-flex flex-column align-items-center">
                     <img src="{{ asset($category->image) }}" alt="{{ $category->name }}" class="category-image"
                         loading="lazy" decoding="async" fetchpriority="high">
                     <button class="btn btn-custom rounded-pill fw-bold pb-0">{{ ucwords($category->name) }}</button>

@@ -10,14 +10,11 @@ return new class extends Migration
     {
         Schema::create('operating_hours', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger("business_id")->unsigned();
             $table->string('day');
             $table->boolean('open')->default(false);
             $table->string('opening_hour')->nullable();
             $table->string('closing_hour')->nullable();
             $table->timestamps();
-
-            $table->foreign('business_id')->references('id')->on('businesses');
         });
     }
 

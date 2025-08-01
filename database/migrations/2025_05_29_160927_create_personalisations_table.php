@@ -10,14 +10,11 @@ return new class extends Migration
     {
         Schema::create('personalisations', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger("business_id")->unsigned();
             $table->string('key');
             $table->longText('value')->nullable();
             $table->string('type')->nullable();
             $table->integer('order')->unsigned()->default(0);
             $table->timestamps();
-
-            $table->foreign('business_id')->references('id')->on('businesses');
         });
     }
 

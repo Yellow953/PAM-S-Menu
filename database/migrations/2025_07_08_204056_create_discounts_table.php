@@ -10,14 +10,11 @@ return new class extends Migration
     {
         Schema::create('discounts', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger("business_id")->unsigned();
             $table->string('type')->default('percentage');
             $table->string('code');
             $table->double('value')->unsigned();
             $table->string('description')->nullable();
             $table->timestamps();
-
-            $table->foreign('business_id')->references('id')->on('businesses');
         });
     }
 

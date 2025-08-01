@@ -2,38 +2,32 @@
 
 namespace App\Http\Controllers;
 
-use App\Helpers\Helper;
-use App\Models\Business;
+use App\Models\Category;
+use App\Models\Currency;
+use App\Models\OperatingHour;
+use App\Models\Product;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
 class HomeController extends Controller
 {
     public function index()
     {
-        return view('welcome');
+        $categories = Category::select('id', 'name', 'image')->with('products')->get();
+        $products = Product::select('id', 'name', 'price', 'description', 'image', 'category_id')->with('category', 'secondary_images', 'variants', 'variants.options')->where('quantity', '>', 0)->get()->groupBy('category_id');
+        $operating_hours = OperatingHour::get();
+        $rate = Currency::where('code', 'LBP')->first()->rate;
+
+        $data = compact('categories', 'products', 'operating_hours', 'rate');
+        return view('menu.index', $data);
     }
 
-    public function qrcode_download(Business $business)
+    public function qrcode_download()
     {
-        if (Helper::menu_or_shop($business) == 'menu') {
-            $url = route('menu', $business->name);
-        } else {
-            $url = route('shop.home', $business->name);
-        }
+        $url = route('index');
         $filePath = public_path('qrcodes/qr-code.png');
 
         QrCode::size(300)->format('png')->generate($url, $filePath);
 
         return response()->download($filePath);
-    }
-
-    public function fix()
-    {
-        return 'fixed...';
-    }
-
-    public function test()
-    {
-        return view('test');
     }
 }

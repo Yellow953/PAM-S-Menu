@@ -21,11 +21,10 @@
                             data-bs-dismiss="modal">
                             Continue Shopping
                         </button>
-                        @if ($business->ordering_activated)
-                        <a href="{{ route('checkout.index', $business->name) }}" class="btn btn-yellow w-100 w-md-auto">
+                        {{-- <a href="{{ route('checkout.index', $business->name) }}"
+                            class="btn btn-yellow w-100 w-md-auto">
                             Checkout
-                        </a>
-                        @endif
+                        </a> --}}
                     </div>
                 </div>
             </div>

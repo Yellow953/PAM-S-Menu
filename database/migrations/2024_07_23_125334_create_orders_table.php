@@ -10,7 +10,6 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger("business_id")->unsigned();
             $table->bigInteger("cashier_id")->unsigned();
             $table->bigInteger("currency_id")->unsigned();
             $table->string('order_number');
@@ -21,9 +20,8 @@ return new class extends Migration
             $table->unsignedInteger('products_count');
             $table->text('note')->nullable();
             $table->timestamps();
-            $table->softDeletes();
 
-            $table->foreign('business_id')->references('id')->on('businesses');
+
             $table->foreign('cashier_id')->references('id')->on('users');
             $table->foreign('currency_id')->references('id')->on('currencies');
         });

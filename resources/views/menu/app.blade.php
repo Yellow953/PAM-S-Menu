@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ ucwords($business->name) }} | Menu</title>
+    <title>Pam's | Menu</title>
 
-    <link rel="shortcut icon" href="{{ asset($business->logo ?? 'assets/images/yellowpos_yellow_black_bg.png') }}"
-        type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon">
 
     <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
     <link href="{{ asset('assets/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css" />
@@ -30,10 +29,6 @@
     {{-- Jquery --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-    <script>
-        document.documentElement.style.setProperty('--primary', '{{ $theme_color }}');
-    </script>
-
     {{-- Menu --}}
     <link rel="stylesheet" href="{{ asset('assets/css/menu.css') }}">
 
@@ -44,7 +39,7 @@
     @yield('content')
 
     <div class="whatsapp-container">
-        <a href="https://wa.me/{{ $business->phone }}" target="_blank">
+        <a href="https://wa.me/96181230801" target="_blank">
             <img src="{{ asset('assets/images/whatsapp.png') }}" alt="Whatsapp Logo" class="whatsapp-img">
         </a>
     </div>

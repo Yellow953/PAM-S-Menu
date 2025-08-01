@@ -2,8 +2,6 @@
 
 namespace App\Helpers;
 
-use App\Models\Business;
-use App\Models\SearchRoute;
 use App\Models\Currency;
 
 class Helper
