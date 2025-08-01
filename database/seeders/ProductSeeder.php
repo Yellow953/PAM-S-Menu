@@ -20,7 +20,7 @@ class ProductSeeder extends Seeder
                 'cost' => rand(1, 50),
                 'price' => rand(1, 100),
                 'description' => Str::random(25),
-                'image' => 'assets/images/no_img.png',
+                'image' => 'assets/images/no_img_sweet.png',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]);
