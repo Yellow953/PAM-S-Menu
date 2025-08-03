@@ -10,10 +10,13 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         $categories = [
+            ['Salty Crepe', '', 'assets/images/crepe.png'],
+            ['Sweet Crepe', '', 'assets/images/crepe.png'],
+            ['Pan Cakes', '', 'assets/images/icecream.png'],
             ['Ice Cream', '', 'assets/images/icecream.png'],
-            ['Crepe', '', 'assets/images/crepe.png'],
-            ['Juice', '', 'assets/images/juice.png'],
-            ['Cocktails', '', 'assets/images/cocktail.png'],
+            ['Cocktails Juice', '', 'assets/images/cocktail.png'],
+            ['Juice Bottles', '', 'assets/images/juice.png'],
+            ['Soft Drinks', '', 'assets/images/cocktail.png'],
         ];
 
         foreach ($categories as $category) {
