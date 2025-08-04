@@ -25,12 +25,21 @@
                         <div class="col-12 col-md-8">
                             <h4 id="productModalLabel" class="text-center text-md-start">Product Name</h4>
                             <p id="productModalDescription" class="text-muted text-center text-md-start"></p>
-                            <div class="fw-bold fs-4 text-center text-md-start" id="productModalPrice"></div>
-                            <div class="text-muted fs-5 text-center text-md-start" id="productModalPriceLBP"></div>
-                            <div id="variantSelectors"></div>
-                            <div id="variantWarning" class="text-danger my-2" style="display:none;">
-                                Please select all options to continue.
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="fw-bold fs-4 text-center text-md-start" id="productModalPrice"></div>
+                                    <div class="text-muted fs-5 text-center text-md-start" id="productModalPriceLBP">
+                                    </div>
+
+                                </div>
+                                <div class="col-md-8">
+                                    <div id="variantSelectors" class="d-flex justify-content-around"></div>
+                                    <div id="variantWarning" class="text-danger my-2" style="display:none;">
+                                        Please select all options to continue.
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
 

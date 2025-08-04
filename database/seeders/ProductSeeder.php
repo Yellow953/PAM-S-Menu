@@ -6,7 +6,6 @@ use App\Models\Product;
 use App\Models\Variant;
 use App\Models\VariantOption;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
 class ProductSeeder extends Seeder
 {
@@ -26,6 +25,7 @@ class ProductSeeder extends Seeder
             [2, 'Lotus Crepe', '', 1, 4.4, 'assets/images/no_img_sweet.png'],
             [2, 'Pistachio Crepe', '', 1, 5, 'assets/images/no_img_sweet.png'],
             [2, 'White Chocolate Crepe', '', 1, 3.7, 'assets/images/no_img_sweet.png'],
+            [2, 'Mana Crepe', '', 1, 6, 'assets/images/no_img_sweet.png'],
             [3, 'Kinder Pancake Box', '', 1, 5, 'assets/images/no_img_sweet.png'],
             [3, 'Lotus Pancake Box', '', 1, 5, 'assets/images/no_img_sweet.png'],
             [3, 'Nutella Pancake Box', '', 1, 5, 'assets/images/no_img_sweet.png'],
@@ -45,6 +45,12 @@ class ProductSeeder extends Seeder
             [7, "Almaza Rose", '', 1, 1.55, 'assets/images/no_img_sweet.png'],
             [7, "Water Small 0.5 L", '', 1, 0.44, 'assets/images/no_img_sweet.png'],
             [7, "Water Large 1 L", '', 1, 0.66, 'assets/images/no_img_sweet.png'],
+            [9, "Oreo Milkshake", '', 1, 5, 'assets/images/no_img_sweet.png'],
+            [9, "Mango Milkshake", '', 1, 5, 'assets/images/no_img_sweet.png'],
+            [9, "Lotus Milkshake", '', 1, 5, 'assets/images/no_img_sweet.png'],
+            [9, "Ashta Milkshake", '', 1, 5, 'assets/images/no_img_sweet.png'],
+            [9, "Strawberry Milkshake", '', 1, 5, 'assets/images/no_img_sweet.png'],
+
         ];
 
         foreach ($products as $product) {
@@ -766,6 +772,136 @@ class ProductSeeder extends Seeder
                         'options' => [
                             ['0.5 L', 0],
                             ['1 Litre', 3.5],
+                        ]
+                    ]
+                ]
+            ],
+
+            // -------------------------
+            // 8: Waffle
+            // -------------------------
+            [
+                'category_id' => 8,
+                'name' => "White Waffle",
+                'description' => "",
+                'cost' => 1,
+                'price' => 3.65,
+                'image' => 'assets/images/no_img_sweet.png',
+                'variants' => [
+                    [
+                        'title' => 'Size',
+                        'type' => 'single',
+                        'options' => [
+                            ['medium', 0],
+                            ['large', 2.5],
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'category_id' => 8,
+                'name' => "Nutella Waffle",
+                'description' => "",
+                'cost' => 1,
+                'price' => 3.65,
+                'image' => 'assets/images/no_img_sweet.png',
+                'variants' => [
+                    [
+                        'title' => 'Size',
+                        'type' => 'single',
+                        'options' => [
+                            ['medium', 0],
+                            ['large', 2.5],
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'category_id' => 8,
+                'name' => "Lotus Waffle",
+                'description' => "",
+                'cost' => 1,
+                'price' => 3.65,
+                'image' => 'assets/images/no_img_sweet.png',
+                'variants' => [
+                    [
+                        'title' => 'Size',
+                        'type' => 'single',
+                        'options' => [
+                            ['medium', 0],
+                            ['large', 2.5],
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'category_id' => 8,
+                'name' => "White and Kinder Waffle",
+                'description' => "",
+                'cost' => 1,
+                'price' => 4.5,
+                'image' => 'assets/images/no_img_sweet.png',
+                'variants' => [
+                    [
+                        'title' => 'Size',
+                        'type' => 'single',
+                        'options' => [
+                            ['medium', 0],
+                            ['large', 2.25],
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'category_id' => 8,
+                'name' => "White Pistachio Waffle",
+                'description' => "",
+                'cost' => 1,
+                'price' => 3.65,
+                'image' => 'assets/images/no_img_sweet.png',
+                'variants' => [
+                    [
+                        'title' => 'Size',
+                        'type' => 'single',
+                        'options' => [
+                            ['medium', 0],
+                            ['large', 2.5],
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'category_id' => 8,
+                'name' => "White Strawberry Waffle",
+                'description' => "",
+                'cost' => 1,
+                'price' => 3.65,
+                'image' => 'assets/images/no_img_sweet.png',
+                'variants' => [
+                    [
+                        'title' => 'Size',
+                        'type' => 'single',
+                        'options' => [
+                            ['medium', 0],
+                            ['large', 2.5],
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'category_id' => 8,
+                'name' => "White Lotus Waffle",
+                'description' => "",
+                'cost' => 1,
+                'price' => 3.65,
+                'image' => 'assets/images/no_img_sweet.png',
+                'variants' => [
+                    [
+                        'title' => 'Size',
+                        'type' => 'single',
+                        'options' => [
+                            ['medium', 0],
+                            ['large', 2.5],
                         ]
                     ]
                 ]

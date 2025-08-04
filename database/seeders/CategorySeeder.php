@@ -11,12 +11,14 @@ class CategorySeeder extends Seeder
     {
         $categories = [
             ['Salty Crepe', '', 'assets/images/crepe.png'],
-            ['Sweet Crepe', '', 'assets/images/crepe.png'],
-            ['Pan Cakes', '', 'assets/images/icecream.png'],
+            ['Sweet Crepe', '', 'assets/images/crepe2.png'],
+            ['Pan Cakes', '', 'assets/images/waffle.png'],
             ['Ice Cream', '', 'assets/images/icecream.png'],
             ['Cocktails Juice', '', 'assets/images/cocktail.png'],
             ['Juice Bottles', '', 'assets/images/juice.png'],
-            ['Soft Drinks', '', 'assets/images/cocktail.png'],
+            ['Soft Drinks', '', 'assets/images/softdrink.png'],
+            ['Waffle', '', 'assets/images/waffle.png'],
+            ['Milkshake', '', 'assets/images/milkshake.png'],
         ];
 
         foreach ($categories as $category) {
