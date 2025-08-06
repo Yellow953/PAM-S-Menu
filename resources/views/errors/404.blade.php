@@ -1,4 +1,4 @@
-@extends('menu.app')
+@extends('errors.app')
 
 @section('title', '404')
 

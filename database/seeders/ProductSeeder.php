@@ -237,7 +237,7 @@ class ProductSeeder extends Seeder
             ],
             [
                 'category_id' => 5,
-                'name' => "Karrot",
+                'name' => "Carrot",
                 'description' => "",
                 'cost' => 1,
                 'price' => 2,
@@ -580,7 +580,7 @@ class ProductSeeder extends Seeder
             ],
             [
                 'category_id' => 6,
-                'name' => "karrots",
+                'name' => "Carrots",
                 'description' => "",
                 'cost' => 1,
                 'price' => 3.33,

@@ -53,6 +53,7 @@ body {
 
 .restaurant-details {
     width: fit-content;
+    max-width: 40vw;
     color: #1b1b1d;
     background-color: #fff;
     border-radius: 10px;
@@ -446,6 +447,7 @@ nav {
     }
 
     .restaurant-details {
+        max-width: 60vw;
         margin-top: -80px;
     }
 
@@ -487,6 +489,7 @@ nav {
     }
 
     .restaurant-details {
+        max-width: 70vw;
         margin-top: -60px;
     }
 

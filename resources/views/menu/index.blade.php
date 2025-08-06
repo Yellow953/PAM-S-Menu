@@ -10,22 +10,30 @@
         <!-- Restaurant Details -->
         <div class="d-flex justify-content-center">
             <div class="d-flex card restaurant-details text-center mb-4 box-shadow">
-                <h1 class="fw-bold">Pam's Scoop, Juice & Crepe</h1>
-                <hr class="w-100 divider">
-                <p class="mb-1">81 230 801</p>
-                <p class="mb-1">Address</p>
-                <p class="mb-1">
-                    <a href="https://maps.google.com" class="text-yellow" target="blank">
-                        <i class="fa-solid fa-location-dot"></i>
-                        visit us
-                    </a>
-                </p>
+                <div class="row">
+                    <div class="col-md-4 my-auto">
+                        <img src="{{ asset('assets/images/logo.png') }}" alt="Pam's Scoop, Juice & Crepe Logo"
+                            class="img-fluid">
+                    </div>
+                    <div class="col-md-8 my-auto">
+                        <h1 class="fw-bold">Pam's Scoop, Juice & Crepe</h1>
+                        <hr class="w-100 divider">
+                        <p class="mb-1">81 230 801</p>
+                        <p class="mb-1">
+                            <a href="https://maps.app.goo.gl/5rSUQvWFTduPdDCU7?g_st=ac" class="text-yellow"
+                                target="blank">
+                                <i class="fa-solid fa-location-dot"></i>
+                                visit us
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 
         <!-- Menu Categories -->
         <div
-            class="d-flex flex-nowrap gap-3 py-3 justify-content-center overflow-x-auto w-100 menu-categories custom-rounded">
+            class="d-flex flex-nowrap gap-3 py-3 justify-content-start overflow-x-auto w-100 menu-categories custom-rounded">
             <div class="card category-div box-shadow mb-2">
                 <a href="{{ route('home') }}#all" class="d-flex flex-column align-items-center">
                     <button class="btn btn-custom rounded-pill fw-bold pb-0">All</button>
