@@ -18,11 +18,11 @@ class ProductSeeder extends Seeder
             [2, 'Dark Chocolate Crepe', '', 1, 4.15, 'assets/images/no_img_sweet.png'],
             [2, 'Fettuccine Nutella White Crepe', '', 1, 5, 'assets/images/no_img_sweet.png'],
             [2, 'Fettuccine White Crepe', '', 1, 5, 'assets/images/no_img_sweet.png'],
-            [2, 'Fettuccine White Pistachio Crepe', '', 1, 5.5, 'assets/images/no_img_sweet.png'],
+            [2, 'Fettuccine White Pistachio Crepe', '', 1, 5.5, 'uploads/products/Fettuccine-white-pistachio.png'],
             [2, "Hershey's Crepe", '', 1, 4.4, 'assets/images/no_img_sweet.png'],
             [2, 'Kinder Crepe', '', 1, 5.5, 'assets/images/no_img_sweet.png'],
             [2, 'Nutella Crepe', '', 1, 5, 'assets/images/no_img_sweet.png'],
-            [2, 'Lotus Crepe', '', 1, 4.4, 'assets/images/no_img_sweet.png'],
+            [2, 'Lotus Crepe', '', 1, 4.4, 'uploads/products/Lottus-crepe.png'],
             [2, 'Pistachio Crepe', '', 1, 5, 'assets/images/no_img_sweet.png'],
             [2, 'White Chocolate Crepe', '', 1, 3.7, 'assets/images/no_img_sweet.png'],
             [2, 'Mana Crepe', '', 1, 6, 'assets/images/no_img_sweet.png'],
@@ -184,7 +184,7 @@ class ProductSeeder extends Seeder
                 'description' => "",
                 'cost' => 1,
                 'price' => 1.66,
-                'image' => 'assets/images/no_img_sweet.png',
+                'image' => 'uploads/products/Apple-juice.png',
                 'variants' => [
                     [
                         'title' => 'Size',
@@ -222,7 +222,7 @@ class ProductSeeder extends Seeder
                 'description' => "",
                 'cost' => 1,
                 'price' => 3,
-                'image' => 'assets/images/no_img_sweet.png',
+                'image' => 'uploads/products/Avocado.png',
                 'variants' => [
                     [
                         'title' => 'Size',
@@ -393,7 +393,7 @@ class ProductSeeder extends Seeder
                 'description' => "",
                 'cost' => 1,
                 'price' => 3,
-                'image' => 'assets/images/no_img_sweet.png',
+                'image' => 'uploads/products/Mango-juice.png',
                 'variants' => [
                     [
                         'title' => 'Size',
@@ -507,7 +507,7 @@ class ProductSeeder extends Seeder
                 'description' => "",
                 'cost' => 1,
                 'price' => 2.77,
-                'image' => 'assets/images/no_img_sweet.png',
+                'image' => 'uploads/products/Strawberry-juice.png',
                 'variants' => [
                     [
                         'title' => 'Size',
