@@ -39,7 +39,7 @@
     @yield('content')
 
     <div class="whatsapp-container">
-        <a href="https://wa.me/96181230801" target="_blank">
+        <a href="https://wa.me/96176376109" target="_blank">
             <img src="{{ asset('assets/images/whatsapp.png') }}" alt="Whatsapp Logo" class="whatsapp-img">
         </a>
     </div>

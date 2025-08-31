@@ -18,7 +18,7 @@
                     <div class="col-md-8 my-auto">
                         <h1 class="fw-bold">Pam's Scoop, Juice & Crepe</h1>
                         <hr class="w-100 divider">
-                        <p class="mb-1">81 230 801</p>
+                        <p class="mb-1">76 376 109</p>
                         <p class="mb-1">
                             <a href="https://maps.app.goo.gl/5rSUQvWFTduPdDCU7?g_st=ac" class="text-yellow"
                                 target="blank">
