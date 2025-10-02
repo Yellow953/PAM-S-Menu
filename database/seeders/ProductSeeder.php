@@ -164,7 +164,7 @@ class ProductSeeder extends Seeder
                 'name' => "3a Zaw2ak Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.3,
+                'price' => 4,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -172,8 +172,8 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['Small', 0],
-                            ['Medium', 0.86],
-                            ['Large', 1.7],
+                            ['Medium', 1],
+                            ['Large', 2],
                         ]
                     ]
                 ]
@@ -183,7 +183,7 @@ class ProductSeeder extends Seeder
                 'name' => "Apple Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 1.66,
+                'price' => 2,
                 'image' => 'uploads/products/Apple-juice.png',
                 'variants' => [
                     [
@@ -191,8 +191,8 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['Small', 0],
-                            ['Medium', 0.84],
-                            ['Large', 1.67],
+                            ['Medium', 1],
+                            ['Large', 2],
                         ]
                     ]
                 ]
@@ -202,7 +202,7 @@ class ProductSeeder extends Seeder
                 'name' => "Avocado and Cocktail",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3,
+                'price' => 4,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -221,7 +221,7 @@ class ProductSeeder extends Seeder
                 'name' => "Avocado",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3,
+                'price' => 4,
                 'image' => 'uploads/products/Avocado.png',
                 'variants' => [
                     [
@@ -248,8 +248,8 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['Small', 0],
-                            ['Medium', 0.77],
-                            ['Large', 1.5],
+                            ['Medium', 1],
+                            ['Large', 2],
                         ]
                     ]
                 ]
@@ -278,7 +278,7 @@ class ProductSeeder extends Seeder
                 'name' => "Exotic Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 9,
+                'price' => 10,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -286,8 +286,8 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['Small', 0],
-                            ['Medium', 2],
-                            ['Large', 5],
+                            ['Medium', 3],
+                            ['Large', 6],
                         ]
                     ]
                 ]
@@ -305,8 +305,8 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['Small', 0],
-                            ['Medium', 0.5],
-                            ['Large', 1.5],
+                            ['Medium', 1],
+                            ['Large', 2],
                         ]
                     ]
                 ]
@@ -316,7 +316,7 @@ class ProductSeeder extends Seeder
                 'name' => "Guava Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 2.77,
+                'price' => 3,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -324,8 +324,8 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['Small', 0],
-                            ['Medium', 0.5],
-                            ['Large', 1.1],
+                            ['Medium', 1],
+                            ['Large', 2],
                         ]
                     ]
                 ]
@@ -343,8 +343,8 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['Small', 0],
-                            ['Medium', 0.5],
-                            ['Large', 1],
+                            ['Medium', 1],
+                            ['Large', 2],
                         ]
                     ]
                 ]
@@ -354,7 +354,7 @@ class ProductSeeder extends Seeder
                 'name' => "Lemon and Mint",
                 'description' => "",
                 'cost' => 1,
-                'price' => 1.5,
+                'price' => 2,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -362,8 +362,8 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['Small', 0],
-                            ['Medium', 0.5],
-                            ['Large', 1],
+                            ['Medium', 1],
+                            ['Large', 2],
                         ]
                     ]
                 ]
@@ -373,7 +373,7 @@ class ProductSeeder extends Seeder
                 'name' => "Lemon Ade",
                 'description' => "",
                 'cost' => 1,
-                'price' => 1.5,
+                'price' => 2,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -381,8 +381,8 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['Small', 0],
-                            ['Medium', 0.5],
-                            ['Large', 1],
+                            ['Medium', 1],
+                            ['Large', 2],
                         ]
                     ]
                 ]
@@ -392,7 +392,7 @@ class ProductSeeder extends Seeder
                 'name' => "Mango Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3,
+                'price' => 4,
                 'image' => 'uploads/products/Mango-juice.png',
                 'variants' => [
                     [
@@ -411,7 +411,7 @@ class ProductSeeder extends Seeder
                 'name' => "Mixed Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.33,
+                'price' => 4.5,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -419,8 +419,8 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['Small', 0],
-                            ['Medium', 1.11],
-                            ['Large', 2.22],
+                            ['Medium', 1],
+                            ['Large', 2],
                         ]
                     ]
                 ]
@@ -430,7 +430,7 @@ class ProductSeeder extends Seeder
                 'name' => "Orange Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 2.22,
+                'price' => 3,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -438,8 +438,8 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['Small', 0],
-                            ['Medium', 0.55],
-                            ['Large', 1.11],
+                            ['Medium', 1],
+                            ['Large', 2],
                         ]
                     ]
                 ]
@@ -449,7 +449,7 @@ class ProductSeeder extends Seeder
                 'name' => "Passion Fruit",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3,
+                'price' => 4,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -468,7 +468,7 @@ class ProductSeeder extends Seeder
                 'name' => "Remmen Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3,
+                'price' => 4,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -487,7 +487,7 @@ class ProductSeeder extends Seeder
                 'name' => "Special Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 5,
+                'price' => 6,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -506,7 +506,7 @@ class ProductSeeder extends Seeder
                 'name' => "Strawberry Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 2.77,
+                'price' => 3,
                 'image' => 'uploads/products/Strawberry-juice.png',
                 'variants' => [
                     [
@@ -514,8 +514,8 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['Small', 0],
-                            ['Medium', 0.55],
-                            ['Large', 1.11],
+                            ['Medium', 1],
+                            ['Large', 2],
                         ]
                     ]
                 ]
@@ -529,7 +529,7 @@ class ProductSeeder extends Seeder
                 'name' => "Lemon",
                 'description' => "",
                 'cost' => 1,
-                'price' => 2.5,
+                'price' => 4,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -537,7 +537,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 2.5],
+                            ['1 Litre', 4],
                         ]
                     ]
                 ]
@@ -547,7 +547,7 @@ class ProductSeeder extends Seeder
                 'name' => "Apple",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.33,
+                'price' => 4,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -555,7 +555,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 3.33],
+                            ['1 Litre', 4],
                         ]
                     ]
                 ]
@@ -565,7 +565,7 @@ class ProductSeeder extends Seeder
                 'name' => "Avocado",
                 'description' => "",
                 'cost' => 1,
-                'price' => 5.55,
+                'price' => 6,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -573,7 +573,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 6.66],
+                            ['1 Litre', 6],
                         ]
                     ]
                 ]
@@ -583,7 +583,7 @@ class ProductSeeder extends Seeder
                 'name' => "Carrots",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.33,
+                'price' => 4,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -591,7 +591,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 3.33],
+                            ['1 Litre', 4],
                         ]
                     ]
                 ]
@@ -601,7 +601,7 @@ class ProductSeeder extends Seeder
                 'name' => "Cocktail",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.5,
+                'price' => 5,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -609,7 +609,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 3.5],
+                            ['1 Litre', 5],
                         ]
                     ]
                 ]
@@ -619,7 +619,7 @@ class ProductSeeder extends Seeder
                 'name' => "Guava",
                 'description' => "",
                 'cost' => 1,
-                'price' => 8.88,
+                'price' => 5,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -627,7 +627,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 3.88],
+                            ['1 Litre', 5],
                         ]
                     ]
                 ]
@@ -637,7 +637,7 @@ class ProductSeeder extends Seeder
                 'name' => "Lemon and Haba2",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.5,
+                'price' => 4.5,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -645,7 +645,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 3.5],
+                            ['1 Litre', 4.5],
                         ]
                     ]
                 ]
@@ -655,7 +655,7 @@ class ProductSeeder extends Seeder
                 'name' => "Lemon and Mint",
                 'description' => "",
                 'cost' => 1,
-                'price' => 2.5,
+                'price' => 4,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -663,7 +663,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 2.5],
+                            ['1 Litre', 4],
                         ]
                     ]
                 ]
@@ -673,7 +673,7 @@ class ProductSeeder extends Seeder
                 'name' => "Mango",
                 'description' => "",
                 'cost' => 1,
-                'price' => 5,
+                'price' => 6,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -681,7 +681,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 10],
+                            ['1 Litre', 6],
                         ]
                     ]
                 ]
@@ -691,7 +691,7 @@ class ProductSeeder extends Seeder
                 'name' => "Mix",
                 'description' => "",
                 'cost' => 1,
-                'price' => 5.5,
+                'price' => 6.5,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -699,7 +699,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 5.55],
+                            ['1 Litre', 6.5],
                         ]
                     ]
                 ]
@@ -709,7 +709,7 @@ class ProductSeeder extends Seeder
                 'name' => "Orange",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.33,
+                'price' => 5,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -717,7 +717,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 3.33],
+                            ['1 Litre', 5],
                         ]
                     ]
                 ]
@@ -727,7 +727,7 @@ class ProductSeeder extends Seeder
                 'name' => "Passion Fruit and Orange",
                 'description' => "",
                 'cost' => 1,
-                'price' => 5,
+                'price' => 6,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -735,7 +735,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 10],
+                            ['1 Litre', 6],
                         ]
                     ]
                 ]
@@ -745,7 +745,7 @@ class ProductSeeder extends Seeder
                 'name' => "Remmen",
                 'description' => "",
                 'cost' => 1,
-                'price' => 5,
+                'price' => 6,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -753,7 +753,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 10],
+                            ['1 Litre', 6],
                         ]
                     ]
                 ]
@@ -763,7 +763,7 @@ class ProductSeeder extends Seeder
                 'name' => "Strawberry",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.5,
+                'price' => 5,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -771,7 +771,7 @@ class ProductSeeder extends Seeder
                         'type' => 'single',
                         'options' => [
                             ['0.5 L', 0],
-                            ['1 Litre', 3.5],
+                            ['1 Litre', 5],
                         ]
                     ]
                 ]
