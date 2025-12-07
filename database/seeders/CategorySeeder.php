@@ -19,6 +19,7 @@ class CategorySeeder extends Seeder
             ['Soft Drinks', '', 'assets/images/softdrink.png'],
             ['Waffle', '', 'assets/images/waffle.png'],
             ['Milkshake', '', 'assets/images/milkshake.png'],
+            ['Special', '', 'assets/images/no_img_sweet.png']
         ];
 
         foreach ($categories as $category) {
