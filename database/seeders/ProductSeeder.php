@@ -12,34 +12,34 @@ class ProductSeeder extends Seeder
     public function run(): void
     {
         $products = [
-            [1, 'Mixed Cheese & Ham', '', 1, 4.4, 'assets/images/mixed-ham-and-cheese.jpg'],
-            [1, 'Mozerella Crepe', '', 1, 3.8, 'assets/images/mozerella-crepe.jpg'],
-            [2, 'Bueno Spread Crepe', '', 1, 5.6, 'assets/images/bueno-spread-crepe.jpg'],
-            [2, 'Dark Chocolate Crepe', '', 1, 4.15, 'assets/images/no_img_sweet.png'],
-            [2, 'Fettuccine Nutella White Crepe', '', 1, 5, 'assets/images/fettuccine-nutella-white.jpeg'],
+            [1, 'Mixed Cheese & Ham', '', 1, 5.5, 'assets/images/mixed-ham-and-cheese.jpg'],
+            [1, 'Mozerella Crepe', '', 1, 4, 'assets/images/mozerella-crepe.jpg'],
+            [2, 'Bueno Spread Crepe', '', 1, 6, 'assets/images/bueno-spread-crepe.jpg'],
+            [2, 'Dark Chocolate Crepe', '', 1, 4.5, 'assets/images/no_img_sweet.png'],
+            [2, 'Fettuccine Nutella White Crepe', '', 1, 5.5, 'assets/images/fettuccine-nutella-white.jpeg'],
             [2, 'Fettuccine White Crepe', '', 1, 5, 'assets/images/no_img_sweet.png'],
-            [2, 'Fettuccine White Pistachio Crepe', '', 1, 5.5, 'uploads/products/Fettuccine-white-pistachio.png'],
-            [2, "Hershey's Crepe", '', 1, 4.4, 'assets/images/hersheys-crepe.jpg'],
-            [2, 'Kinder Crepe', '', 1, 5.5, 'assets/images/kinder-crepe.jpg'],
+            [2, 'Fettuccine White Pistachio Crepe', '', 1, 7, 'uploads/products/Fettuccine-white-pistachio.png'],
+            [2, "Hershey's Crepe", '', 1, 6, 'assets/images/hersheys-crepe.jpg'],
+            [2, 'Kinder Crepe', '', 1, 7, 'assets/images/kinder-crepe.jpg'],
             [2, 'Nutella Crepe', '', 1, 5, 'assets/images/no_img_sweet.png'],
-            [2, 'Lotus Crepe', '', 1, 4.4, 'uploads/products/Lottus-crepe.png'],
-            [2, 'Pistachio Crepe', '', 1, 5, 'assets/images/pistachio-crepe.jpg'],
+            [2, 'Lotus Crepe', '', 1, 4.5, 'uploads/products/Lottus-crepe.png'],
+            [2, 'Pistachio Crepe', '', 1, 6, 'assets/images/pistachio-crepe.jpg'],
             [2, 'White Chocolate Crepe', '', 1, 3.7, 'White-chocolate-crepe.jpg'],
             [2, 'Mana Crepe', '', 1, 6, 'assets/images/no_img_sweet.png'],
-            [3, 'Kinder Pancake Box', '', 1, 5, 'assets/images/kinder-pancake.jpg'],
+            [3, 'Kinder Pancake Box', '', 1, 6, 'assets/images/kinder-pancake.jpg'],
             [3, 'Lotus Pancake Box', '', 1, 5, 'assets/images/lotus-pancake.jpeg'],
             [3, 'Nutella Pancake Box', '', 1, 5, 'assets/images/nutella-pancake.jpg'],
-            [3, 'Pistachio Pancake Box', '', 1, 6.1, 'assets/images/pistachio-pancake.jpg'],
-            [3, 'Waffle Pain', '', 1, 4, 'assets/images/waffle-plain.jpg'],
+            [3, 'Pistachio Pancake Box', '', 1, 6, 'assets/images/pistachio-pancake.jpg'],
+            [3, 'Waffle Pain', '', 1, 4.5, 'assets/images/waffle-plain.jpg'],
             [4, 'Ice Cream Cone', '', 1, 2.58, 'assets/images/no_img_sweet.png'],
             [4, 'Ice Cream Cup', '', 1, 3, 'assets/images/no_img_sweet.png'],
             [4, 'Ice Cream 1/2 Kg', '', 1, 6.17, 'assets/images/Ice-cream-0,5kg.jpg'],
             [4, 'Ice Cream 1 KG', '', 1, 12.35, 'assets/images/Ice-cream-1kg.jpg'],
-            [7, "Pepsi Can", '', 1, 0.9, 'assets/images/pepsi-can-330ml.jpg'],
-            [7, "Pepsi Diet", '', 1, 0.9, 'assets/images/pepsi-diet-can-330ml.jpg'],
-            [7, "Seven Up", '', 1, 0.9, 'assets/images/7up-can.jpg'],
-            [7, "Seven Diet", '', 1, 0.9, 'assets/images/7up-diet-can.jpg'],
-            [7, "Miranda", '', 1, 0.9, 'assets/images/mirinda-can-330ml.jpg'],
+            [7, "Pepsi Can", '', 1, 1, 'assets/images/pepsi-can-330ml.jpg'],
+            [7, "Pepsi Diet", '', 1, 1, 'assets/images/pepsi-diet-can-330ml.jpg'],
+            [7, "Seven Up", '', 1, 1, 'assets/images/7up-can.jpg'],
+            [7, "Seven Diet", '', 1, 1, 'assets/images/7up-diet-can.jpg'],
+            [7, "Miranda", '', 1, 1, 'assets/images/mirinda-can-330ml.jpg'],
             [7, "Almaza Light", '', 1, 1.55, 'assets/images/no_img_sweet.png'],
             [7, "Almaza Normal", '', 1, 1.55, 'assets/images/no_img_sweet.png'],
             [7, "Almaza Rose", '', 1, 1.55, 'assets/images/no_img_sweet.png'],
@@ -106,10 +106,10 @@ class ProductSeeder extends Seeder
                 ]);
 
                 $options = [
-                    ['Add Banana', 0.5, null],
-                    ['Add Kiwi', 0.5, null],
-                    ["Add Strawberry", 0.5, null],
-                    ['Add Grapes', 0.5, null],
+                    ['Add Banana', 1, null],
+                    ['Add Kiwi', 1, null],
+                    ["Add Strawberry", 1, null],
+                    ['Add Grapes', 1, null],
                 ];
 
                 foreach ($options as $option) {
@@ -166,7 +166,7 @@ class ProductSeeder extends Seeder
                 'name' => "3a Zaw2ak Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 4,
+                'price' => 5,
                 'image' => 'assets/images/3a-Zaw2ak-Juice.jpeg',
                 'variants' => [
                     [
@@ -787,7 +787,7 @@ class ProductSeeder extends Seeder
                 'name' => "White Waffle",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.65,
+                'price' => 4,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -805,7 +805,7 @@ class ProductSeeder extends Seeder
                 'name' => "Nutella Waffle",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.65,
+                'price' => 4,
                 'image' => 'assets/images/no_img_sweet.png',
                 'variants' => [
                     [
@@ -823,7 +823,7 @@ class ProductSeeder extends Seeder
                 'name' => "Lotus Waffle",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.65,
+                'price' => 4,
                 'image' => 'assets/images/lotus-waffle.jpg',
                 'variants' => [
                     [
@@ -841,7 +841,7 @@ class ProductSeeder extends Seeder
                 'name' => "White and Kinder Waffle",
                 'description' => "",
                 'cost' => 1,
-                'price' => 4.5,
+                'price' => 5.5,
                 'image' => 'assets/images/White-and-kinder-waffle.jpg',
                 'variants' => [
                     [
@@ -859,7 +859,7 @@ class ProductSeeder extends Seeder
                 'name' => "White Pistachio Waffle",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.65,
+                'price' => 4,
                 'image' => 'assets/images/White-pistachio-waffle.jpg',
                 'variants' => [
                     [
@@ -877,7 +877,7 @@ class ProductSeeder extends Seeder
                 'name' => "White Strawberry Waffle",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.65,
+                'price' => 4,
                 'image' => 'assets/images/White-strawberry-waffle.jpg',
                 'variants' => [
                     [
