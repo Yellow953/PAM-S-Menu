@@ -14,6 +14,7 @@ class ProductSeeder extends Seeder
         $products = [
             [1, 'Mixed Cheese & Ham', '', 1, 5.5, 'assets/images/mixed-ham-and-cheese.jpg'],
             [1, 'Mozerella Crepe', '', 1, 4, 'assets/images/mozerella-crepe.jpg'],
+            [1, 'Pizza Crepe', '', 1, 8, 'assets/images/pizza-crepe.jpeg'],
             [2, 'Bueno Spread Crepe', '', 1, 6, 'assets/images/bueno-spread-crepe.jpg'],
             [2, 'Dark Chocolate Crepe', '', 1, 4.5, 'assets/images/no_img_sweet.png'],
             [2, 'Fettuccine Nutella White Crepe', '', 1, 5.5, 'assets/images/fettuccine-nutella-white.jpeg'],
@@ -21,14 +22,18 @@ class ProductSeeder extends Seeder
             [2, 'Fettuccine White Pistachio Crepe', '', 1, 7, 'uploads/products/Fettuccine-white-pistachio.png'],
             [2, "Hershey's Crepe", '', 1, 6, 'assets/images/hersheys-crepe.jpg'],
             [2, 'Kinder Crepe', '', 1, 7, 'assets/images/kinder-crepe.jpg'],
-            [2, 'Nutella Crepe', '', 1, 5, 'assets/images/no_img_sweet.png'],
+            [2, 'Nutella Crepe', '', 1, 5, 'assets/images/nutella-crepe.jpeg'],
             [2, 'Lotus Crepe', '', 1, 4.5, 'uploads/products/Lottus-crepe.png'],
             [2, 'Pistachio Crepe', '', 1, 6, 'assets/images/pistachio-crepe.jpg'],
-            [2, 'White Chocolate Crepe', '', 1, 3.7, 'White-chocolate-crepe.jpg'],
+            [2, 'White Chocolate Crepe', '', 1, 3.7, 'assets/images/White-chocolate-crepe.jpg'],
             [2, 'Mana Crepe', '', 1, 6, 'assets/images/no_img_sweet.png'],
+            [2, 'Sushi Ashta Crepe', '', 1, 6, 'assets/images/sushi-ashta-crepe.jpeg'],
+            [2, 'Sushi Brownie Crepe', '', 1, 6, 'assets/images/sushi-brownie-crepe.jpeg'],
+            [2, 'Oreo Crepe', '', 1, 6, 'assets/images/oreo-crepe.jpeg'],
             [3, 'Kinder Pancake Box', '', 1, 6, 'assets/images/kinder-pancake.jpg'],
             [3, 'Lotus Pancake Box', '', 1, 5, 'assets/images/lotus-pancake.jpeg'],
             [3, 'Nutella Pancake Box', '', 1, 5, 'assets/images/nutella-pancake.jpg'],
+            [3, 'Oreo Pancake Box', '', 1, 6, 'assets/images/oreo-pancake.jpeg'],
             [3, 'Pistachio Pancake Box', '', 1, 6, 'assets/images/pistachio-pancake.jpg'],
             [3, 'Waffle Pain', '', 1, 4.5, 'assets/images/waffle-plain.jpg'],
             [4, 'Ice Cream Cone', '', 1, 2.58, 'assets/images/no_img_sweet.png'],
@@ -262,7 +267,7 @@ class ProductSeeder extends Seeder
                 'description' => "",
                 'cost' => 1,
                 'price' => 3,
-                'image' => 'assets/images/cockail-juice.jpeg',
+                'image' => 'assets/images/cocktail-juice.jpeg',
                 'variants' => [
                     [
                         'title' => 'Size',
@@ -353,44 +358,6 @@ class ProductSeeder extends Seeder
             ],
             [
                 'category_id' => 5,
-                'name' => "Lemon and Mint",
-                'description' => "",
-                'cost' => 1,
-                'price' => 2,
-                'image' => 'assets/images/no_img_sweet.png',
-                'variants' => [
-                    [
-                        'title' => 'Size',
-                        'type' => 'single',
-                        'options' => [
-                            ['Small', 0],
-                            ['Medium', 1],
-                            ['Large', 2],
-                        ]
-                    ]
-                ]
-            ],
-            [
-                'category_id' => 5,
-                'name' => "Lemon Ade",
-                'description' => "",
-                'cost' => 1,
-                'price' => 2,
-                'image' => 'assets/images/no_img_sweet.png',
-                'variants' => [
-                    [
-                        'title' => 'Size',
-                        'type' => 'single',
-                        'options' => [
-                            ['Small', 0],
-                            ['Medium', 1],
-                            ['Large', 2],
-                        ]
-                    ]
-                ]
-            ],
-            [
-                'category_id' => 5,
                 'name' => "Mango Juice",
                 'description' => "",
                 'cost' => 1,
@@ -433,26 +400,7 @@ class ProductSeeder extends Seeder
                 'description' => "",
                 'cost' => 1,
                 'price' => 3,
-                'image' => 'assets/images/no_img_sweet.png',
-                'variants' => [
-                    [
-                        'title' => 'Size',
-                        'type' => 'single',
-                        'options' => [
-                            ['Small', 0],
-                            ['Medium', 1],
-                            ['Large', 2],
-                        ]
-                    ]
-                ]
-            ],
-            [
-                'category_id' => 5,
-                'name' => "Passion Fruit",
-                'description' => "",
-                'cost' => 1,
-                'price' => 4,
-                'image' => 'assets/images/no_img_sweet.png',
+                'image' => 'assets/images/orange-juice.jpeg',
                 'variants' => [
                     [
                         'title' => 'Size',
@@ -486,11 +434,11 @@ class ProductSeeder extends Seeder
             ],
             [
                 'category_id' => 5,
-                'name' => "Special Juice",
+                'name' => "Strawberry Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 6,
-                'image' => 'assets/images/no_img_sweet.png',
+                'price' => 3,
+                'image' => 'uploads/products/Strawberry-juice.png',
                 'variants' => [
                     [
                         'title' => 'Size',
@@ -505,11 +453,11 @@ class ProductSeeder extends Seeder
             ],
             [
                 'category_id' => 5,
-                'name' => "Strawberry Juice",
+                'name' => "Strawberry and Milk Juice",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3,
-                'image' => 'uploads/products/Strawberry-juice.png',
+                'price' => 4,
+                'image' => 'assets/images/strawberry-and-milk-juice.jpeg',
                 'variants' => [
                     [
                         'title' => 'Size',
@@ -518,6 +466,25 @@ class ProductSeeder extends Seeder
                             ['Small', 0],
                             ['Medium', 1],
                             ['Large', 2],
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'category_id' => 5,
+                'name' => "She2af Cocktail",
+                'description' => "",
+                'cost' => 1,
+                'price' => 5.06,
+                'image' => 'assets/images/She2af-cocktail.jpg',
+                'variants' => [
+                    [
+                        'title' => 'Size',
+                        'type' => 'single',
+                        'options' => [
+                            ['Small', 0],
+                            ['Medium', 1.12],
+                            ['Large', 2.24],
                         ]
                     ]
                 ]
@@ -890,20 +857,25 @@ class ProductSeeder extends Seeder
                     ]
                 ]
             ],
+
+            // -------------------------
+            // 10: Special (Custom S/M/L)
+            // -------------------------
             [
-                'category_id' => 8,
-                'name' => "White Lotus Waffle",
+                'category_id' => 10,
+                'name' => "Special Nutella Avocado",
                 'description' => "",
                 'cost' => 1,
-                'price' => 3.65,
-                'image' => 'assets/images/no_img_sweet.png',
+                'price' => 6,
+                'image' => 'assets/images/special-nutella-avocado.jpeg',
                 'variants' => [
                     [
                         'title' => 'Size',
                         'type' => 'single',
                         'options' => [
-                            ['medium', 0],
-                            ['large', 2.5],
+                            ['Small', 0],
+                            ['Medium', 1],
+                            ['Large', 2],
                         ]
                     ]
                 ]
